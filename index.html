@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/1ea21bf9c0.js" crossorigin="anonymous"></script>
+        <style>
+            *{
+                margin:0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+      
+           
+     .header{
+         float:right;
+     }
+     .header a{
+         color:black;
+         font-family: Arial, Helvetica, sans-serif;
+         text-decoration: none;
+        padding:10px 20px;
+        font-size:20px;
+     }
+     .header a:hover{
+      background-color:purple;
+     }
+     #user{
+         font-size: 20px;
+         font-family: arial;
+         margin-left: 10px;
+         padding:10px 20px;
+        float:left;
+         position:relative;
+         color:black;
+     }
+    header{
+       
+        padding: 10px 10px;
+        position: sticky;
+        top:0;
+        background-color: white;
+    }
+   .image{
+       display: block;
+       background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(graphic-designer-scaled.jpg);
+       height: 90vh;
+       background-size: cover;
+       color:white;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 20px;
+       
+   }
+ .texts{
+     position: relative;
+     float:left;
+     top:66vh;
+     margin-left: 15px;
+     animation-name:anime1;
+     animation-duration: 2s;
+     animation-iteration-count: 1;
+ }
+ @keyframes anime1{
+     0%{
+         top:0vh;
+     }
+     100%{
+         top: 66vh;
+     }
+ }
+ .anime2{
+     animation-name:anime2;
+     animation-duration: 2s;
+     animation-iteration-count: 1;
+     animation-delay: 1.5s;
+ }
+ @keyframes anime2{
+     0%{
+     width: 0%;
+     }
+     100%{
+       width:100%;
+     }
+ }
+ .img3{
+     position: relative;
+     margin-right: 20px;
+ }
+ .contacts{
+     background-color: #030E31;
+     color:white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: xx-large;
+
+ }
+ 
+ .contacts a{
+     text-decoration: none;
+ }
+ .btn{
+     border-radius: 5px;
+     border: none;
+     padding:5px 5px;
+     position: relative;
+ }
+.btn:hover{
+    background-color: gray;
+}
+.about{
+    border: solid black;
+  width: 70%;
+  
+}
+.bimage{
+    display: block;
+       background:url(buk.jpeg);
+       height: 90vh;
+       background-size: cover;
+}
+.work{
+    background-color:#D7D7D7;
+    height: 150vh;
+    color:purple;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+        </style>
+    </head>
+    <body>
+     <header>
+       <img src="logo.jpeg" height="40px" width="120px">
+        <span id="user"> <i class="fa-solid fa-user"></i><strong> Nikhil Kumar</strong></span>
+        
+       <div class="header">
+        
+           <a href="">Home</a>
+           <a href="#about">About</a>
+           <a href="#contacts">Contacts</a>
+           <a href="#work">My Work</a>
+            
+       </div>
+     
+     </header>
+       <div class="image">
+              <div class="texts">
+                <strong> HI I AM NIKHIL KUMAR</strong> 
+                <h1>FREELANCE GRAPHIC DESIGNER</h1>
+              </div>
+       </div>
+      
+
+       <!-- about section-->
+ <div class="bimage">     
+ <div align="center" class="anime2" id="about">
+     <h1><font face="arial" color="purple" font-size="25px">Who i am</font></h1>
+    </div>
+     <br>
+     <br>
+   
+    <div align="center" class="about">
+     <table  padding="10px" > 
+        <tr>
+           
+            <th>
+                <font size="35px"><i class="fa-solid fa-pen"></i></font>
+            </th>
+        </tr>
+         <tr>
+            
+             <th>
+                <font face="arial" size="20px">  DESIGNER </font>
+             </th>
+        
+         </tr>
+         <tr>
+             
+              <td align="center">
+                <font face="arial" size="5px"> I make simple content structures,attractive designs and digital art.</font>
+              </td>
+         </tr>
+        <tr>
+           
+            <th>
+                <font face="arial" color="purple" size="5px">I enjoy designing</font>
+            </th>
+        </tr>
+        <tr>
+           
+            <td align="center">
+                <font face="arial" size="5px">
+                    
+                        website<br>
+                        logos<br>
+                        advertisements<br>
+                        cliparts<br>
+                        Thumbnails<br>
+                        Illustrations<br>
+                        Posters
+                   
+                </font>
+            </td>
+        </tr>
+        <tr>
+          
+            <th>
+                <font face="arial" color="purple" size="5px">Designing tools</font>
+            </th>
+        </tr>
+        <tr>
+            
+            <td align="center">
+                <font face="arial" size="5px">
+                
+                    Photoshop,
+                    CSS,
+                    Illustrator,
+                    canva
+                
+                </font>
+            </td>
+        </tr>
+     </table>
+    </div>
+    </div>
+    <!-- showcase section-->
+    <div id="work" class="work">
+         <h1>WORK SHOWCASE</h1>
+         <br><br>
+         <img src="design 4.jpg" height="200px" width="300px">
+         <img src="design 11.jpg" height="200px" width="300px">
+         <img src="design 9.jpg" height="200px" width="300px">
+         <img src="design 7.jpg" height="200px" width="300px">
+         <img src="design 6.jpg" height="200px" width="300px">
+         <img src="logo.jpeg" height="200px" width="300px">
+         <img src="design 8.jpg" height="200px" width="300px">
+         <img src="design 12.jpg" height="200px" width="300px">
+         <img src="design 13.jpg" height="200px" width="300px">
+         <img src="posterdesign.jpg" height="200px" width="300px">
+         <img src="design 14.jpg" height="200px" width="300px">
+         <img src="design 22.jpg" height="200px" width="300px">
+         <img src="design 15.jpg" height="200px" width="300px">
+         <img src="design 18.jpg" height="200px" width="300px">
+         <img src="design 19.jpg" height="200px" width="300px">
+    </div>
+   <div align="center" class="contacts" id="contacts">
+       Get in Touch
+       <br>
+       <br>
+       <br>
+       <br>
+       <i class="fa-solid fa-envelope"></i>Email : <a href="nikhilkrcurry654@gmail.com">nikhilkrcurry654@gmail.com</a><br>
+       <i class="fa-brands fa-instagram"></i> Instagram :<a href="https://www.instagram.com/creator.7150/">creator7150</a>
+   </div>
+   </body>
+</html>
